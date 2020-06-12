@@ -16,7 +16,7 @@ public class MyFileReaderChar {
             // 2.读入操作
             // 每次读取cbuf数组中的字符个数，如果达到文件末尾，则返回-1
             int len;
-            // 创建一个字符数组，表示每次读入1024个字符
+            // 创建一个字符数组，把每次读的len个字符数据放入数组中
             char[] cbuf = new char[1024];
             while ((len = fr.read(cbuf)) != -1) {
                 /**
