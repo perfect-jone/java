@@ -2,7 +2,7 @@ package com.atjone.java.thread;
 
 /**
  * @author Jone
- * @description ：四种创建多线程方式之第二种：实现Runnable接口，实现run方法,把实现实现Runnable接口的类的对象传入Thread类的构造器中
+ * @description ：四种创建多线程方式之第二种：实现Runnable接口，重写run方法,把实现实现Runnable接口的类的对象传入Thread类的构造器中
  * @create 2020-06-15 10:54
  */
 public class Thread_sencond {
