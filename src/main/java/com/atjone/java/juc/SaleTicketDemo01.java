@@ -7,6 +7,8 @@ import java.util.concurrent.locks.ReentrantLock;
 class Ticket //资源类 = 实例变量+实例方法
 {
     private int number = 30;
+
+    //Lock是接口，ReentrantLock（可释放锁）是Lock的实现类
     Lock lock = new ReentrantLock();
 
     public void sale()
