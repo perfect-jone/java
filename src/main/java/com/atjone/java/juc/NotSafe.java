@@ -17,7 +17,7 @@ import java.util.function.Consumer;
  *      2.2 Collections.synchronizedList(new ArrayList<>())
  *      2.3 new CopyOnWriteArrayList<String>()
  */
-public class NotSafe01 {
+public class NotSafe {
     public static void main(String[] args) {
 //        List<String> list = new ArrayList<>();
 /*        list.add("a");

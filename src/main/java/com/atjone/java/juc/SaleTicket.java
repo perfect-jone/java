@@ -40,7 +40,7 @@ class Ticket //资源类 = 实例变量+实例方法
  *  在高内聚低耦合的前提下，线程        操作      资源类
  *
  */
-public class SaleTicketDemo01
+public class SaleTicket
 {
     public static void main(String[] args)//主线程，一切程序的入口
     {
