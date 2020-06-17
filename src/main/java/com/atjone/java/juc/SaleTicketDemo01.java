@@ -56,27 +56,21 @@ public class SaleTicketDemo01
 
 
         //Thread(Runnable target, String name) Allocates a new Thread object.
-        /*new Thread(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                for (int i = 1; i <=40; i++) ticket.sale();
-                {
-                    ticket.sale();
-                }
-            }
-        }, "A").start();
-        new Thread(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                for (int i = 1; i <=40; i++)
-                {
-                    ticket.sale();
-                }
-            }
-        }, "B").start();*/
+        // 之前匿名内部类写法
+//        new Thread(new Runnable()
+//        {
+//            @Override
+//            public void run()
+//            {
+//                for (int i = 1; i <=40; i++)
+//                {
+//                    ticket.sale();
+//                }
+//            }
+//        }, "B").start();
+
+        // λ表达式写法
+//        new Thread(()->{for (int i = 1; i <=40; i++) ticket.sale();},"D").start();
+
     }
 }
