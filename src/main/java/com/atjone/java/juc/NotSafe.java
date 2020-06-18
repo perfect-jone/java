@@ -41,6 +41,7 @@ public class NotSafe {
 
     public static void mapNotSafe() {
         Map<String,String> map1 = new HashMap<String,String>();
+        Map<String,String> map2 = Collections.synchronizedMap(new HashMap<>());
         Map<String,String> map = new ConcurrentHashMap<>();
         for (int i = 0; i <30 ; i++) {
             new Thread(() -> {

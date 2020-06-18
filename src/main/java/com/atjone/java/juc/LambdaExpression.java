@@ -40,7 +40,7 @@ public class LambdaExpression {
 }
 
 @FunctionalInterface
-        //函数式接口注解
+//函数式接口注解
 interface Cal {
 
     //public void print();
